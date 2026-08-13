@@ -7,7 +7,7 @@ hero:
   tagline: 程士宏 著 · 北京大学出版社
   actions:
     - theme: brand
-      text: 第一章 可测空间和可测映射
+      text: 开始阅读
       link: /ch01/
     - theme: alt
       text: GitHub

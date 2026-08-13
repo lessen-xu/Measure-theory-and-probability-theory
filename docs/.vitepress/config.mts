@@ -1,5 +1,7 @@
 import { defineConfig } from 'vitepress'
 
+const SITE = 'https://lessen-xu.github.io/Measure-theory-and-probability-theory/'
+
 export default defineConfig({
   lang: 'zh-CN',
   title: '测度论与概率论基础 习题解答',
@@ -10,9 +12,35 @@ export default defineConfig({
   markdown: {
     math: true
   },
+  sitemap: {
+    hostname: SITE
+  },
   head: [
-    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分' }]
+    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分' }],
+    ['meta', { name: 'robots', content: 'index,follow' }],
+    ['meta', { property: 'og:site_name', content: '测度论与概率论基础 习题解答' }],
+    ['meta', { property: 'og:locale', content: 'zh_CN' }]
   ],
+  transformPageData(pageData) {
+    const path = pageData.relativePath.replace(/index\.md$/, '').replace(/\.md$/, '')
+    const url = SITE + path
+    const title = pageData.title
+
+    if (!pageData.description) {
+      pageData.description = title
+        ? `程士宏《测度论与概率论基础》（北京大学出版社）课后习题参考解答：${title}，含完整证明过程。`
+        : '程士宏《测度论与概率论基础》（北京大学出版社）课后习题参考解答'
+    }
+
+    pageData.frontmatter.head ??= []
+    pageData.frontmatter.head.push(
+      ['link', { rel: 'canonical', href: url }],
+      ['meta', { property: 'og:type', content: 'article' }],
+      ['meta', { property: 'og:url', content: url }],
+      ['meta', { property: 'og:title', content: title ?? '测度论与概率论基础 习题解答' }],
+      ['meta', { property: 'og:description', content: pageData.description }]
+    )
+  },
   themeConfig: {
     sidebar: [
       {

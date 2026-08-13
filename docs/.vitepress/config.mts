@@ -14,16 +14,11 @@ export default defineConfig({
     ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射' }]
   ],
   themeConfig: {
-    nav: [
-      { text: '首页', link: '/' },
-      { text: '第一章 可测空间和可测映射', link: '/ch01/' },
-      { text: '第二章 测度空间', link: '/ch02/' }
-    ],
     sidebar: [
       {
         text: '第一章 可测空间和可测映射',
         link: '/ch01/',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '1. 指示函数的性质', link: '/ch01/01' },
           { text: '2. 两两不交集列的极限', link: '/ch01/02' },
@@ -55,7 +50,7 @@ export default defineConfig({
       {
         text: '第二章 测度空间',
         link: '/ch02/',
-        collapsed: false,
+        collapsed: true,
         items: [
           { text: '1. 测度的有限可加性与可减性', link: '/ch02/01' },
           { text: '2. 三个测度例子的验证', link: '/ch02/02' },

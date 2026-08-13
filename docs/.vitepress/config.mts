@@ -16,7 +16,7 @@ export default defineConfig({
     hostname: SITE
   },
   head: [
-    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分' }],
+    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分,符号测度,条件期望' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
     ['meta', { property: 'og:site_name', content: '测度论与概率论基础 习题解答' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }]
@@ -149,6 +149,41 @@ export default defineConfig({
           { text: '28. 一致可积族的线性组合', link: '/ch03/28' },
           { text: '29. Lₛ 有界则 |f|ʳ 一致可积', link: '/ch03/29' },
           { text: '30. 依分布收敛加期望收敛推出一致可积', link: '/ch03/30' }
+        ]
+      },
+      {
+        text: '第四章 符号测度',
+        link: '/ch04/',
+        collapsed: true,
+        items: [
+          { text: '1. 表为两个测度之差是否惟一', link: '/ch04/01' },
+          { text: '2. 符号测度的上下连续性', link: '/ch04/02' },
+          { text: '3. 下变差的变分表示', link: '/ch04/03' },
+          { text: '4. Jordan 分解的极小性', link: '/ch04/04' },
+          { text: '5. 存在控制可列个有限测度的测度', link: '/ch04/05' },
+          { text: '6. 绝对连续的等价刻画', link: '/ch04/06' },
+          { text: '7. 绝对连续的 ε-δ 形式', link: '/ch04/07' },
+          { text: '8. 用 R-N 导数换测度积分', link: '/ch04/08' },
+          { text: '9. R-N 导数的链式法则', link: '/ch04/09' },
+          { text: '10. 互相绝对连续与导数的倒数', link: '/ch04/10' },
+          { text: '11. R-N 导数的线性', link: '/ch04/11' },
+          { text: '12. 奇异性对测度加法封闭', link: '/ch04/12' },
+          { text: '13. 证明推论 4.4.6', link: '/ch04/13' },
+          { text: '14. 分布函数的三分解', link: '/ch04/14' },
+          { text: '15. 均匀分布在有限个点上的分布函数', link: '/ch04/15' },
+          { text: '16. 离散型随机变量的期望与方差', link: '/ch04/16' },
+          { text: '17. 密度函数的判别', link: '/ch04/17' },
+          { text: '18. 连续型随机变量的期望与方差', link: '/ch04/18' },
+          { text: '19. 可测分割生成的 σ 域上的条件概率', link: '/ch04/19' },
+          { text: '20. 完成引理 4.5.1 的证明', link: '/ch04/20' },
+          { text: '21. 完成定理 4.5.2 之 (1) 和 (4) 的证明', link: '/ch04/21' },
+          { text: '22. 条件期望是 L₂ 中的最佳逼近', link: '/ch04/22' },
+          { text: '23. 离散随机变量给定值的条件概率', link: '/ch04/23' },
+          { text: '24. 由有理点上的单调函数造分布函数', link: '/ch04/24' },
+          { text: '25. 正则条件分布函数的存在性', link: '/ch04/25' },
+          { text: '26. 证明推论 4.5.8', link: '/ch04/26' },
+          { text: '27. 条件 Hölder 不等式', link: '/ch04/27' },
+          { text: '28. 条件 Minkowski 不等式', link: '/ch04/28' }
         ]
       }
     ],

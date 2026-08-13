@@ -11,7 +11,7 @@ export default defineConfig({
     math: true
   },
   head: [
-    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射' }]
+    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分' }]
   ],
   themeConfig: {
     sidebar: [
@@ -84,6 +84,43 @@ export default defineConfig({
           { text: '30. 左连续逆的性质', link: '/ch02/30' },
           { text: '31. 弱收敛传递到左连续逆', link: '/ch02/31' },
           { text: '32. 连续极限下的一致收敛', link: '/ch02/32' }
+        ]
+      },
+      {
+        text: '第三章 积分',
+        link: '/ch03/',
+        collapsed: true,
+        items: [
+          { text: '1. 积分存在则在任何可测集上存在', link: '/ch03/01' },
+          { text: '2. 积分形式的 Chebyshev 不等式', link: '/ch03/02' },
+          { text: '3. 积分第一中值定理', link: '/ch03/03' },
+          { text: '4. σ 有限空间上积分相等推出 a.e. 相等', link: '/ch03/04' },
+          { text: '5. 可积函数的非零集有 σ 有限测度', link: '/ch03/05' },
+          { text: '6. 完成推论 3.2.5 的证明', link: '/ch03/06' },
+          { text: '7. 完成推论 3.2.7 的证明', link: '/ch03/07' },
+          { text: '8. 完成定理 3.2.10 的证明', link: '/ch03/08' },
+          { text: '9. 广义单调收敛定理', link: '/ch03/09' },
+          { text: '10. 广义 Fatou 引理', link: '/ch03/10' },
+          { text: '11. L₁ 收敛蕴含依测度收敛', link: '/ch03/11' },
+          { text: '12. 非负情形的 Scheffé 定理', link: '/ch03/12' },
+          { text: '13. L∞ 上的范数', link: '/ch03/13' },
+          { text: '14. 完成定理 3.3.5 的证明', link: '/ch03/14' },
+          { text: '15. L₂ 是 Hilbert 空间', link: '/ch03/15' },
+          { text: '16. 证明引理 3.3.6', link: '/ch03/16' },
+          { text: '17. 0 < p < 1 时的 Minkowski 不等式', link: '/ch03/17' },
+          { text: '18. 平均收敛不蕴含 a.e. 收敛', link: '/ch03/18' },
+          { text: '19. L∞ 有界与弱收敛', link: '/ch03/19' },
+          { text: '20. 期望有限的级数判别', link: '/ch03/20' },
+          { text: '21. 证明定理 3.4.1', link: '/ch03/21' },
+          { text: '22. 依概率收敛的距离化', link: '/ch03/22' },
+          { text: '23. L-S 积分与 Riemann-Stieltjes 积分', link: '/ch03/23' },
+          { text: '24. 纯离散分布的积分', link: '/ch03/24' },
+          { text: '25. 弱收敛与有界连续函数', link: '/ch03/25' },
+          { text: '26. 方差公式', link: '/ch03/26' },
+          { text: '27. 有可积控制则一致可积', link: '/ch03/27' },
+          { text: '28. 一致可积族的线性组合', link: '/ch03/28' },
+          { text: '29. Lₛ 有界则 |f|ʳ 一致可积', link: '/ch03/29' },
+          { text: '30. 依分布收敛加期望收敛推出一致可积', link: '/ch03/30' }
         ]
       }
     ],

@@ -52,7 +52,7 @@ export default defineConfig({
         ]
       }
     ],
-    outline: { level: [2, 3], label: '本页目录' },
+    outline: false,
     search: { provider: 'local' },
     socialLinks: [
       { icon: 'github', link: 'https://github.com/lessen-xu/Measure-theory-and-probability-theory' }
@@ -66,7 +66,6 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     darkModeSwitchLabel: '主题',
     sidebarMenuLabel: '目录',
-    outlineTitle: '本页目录',
     footer: {
       message: '内容以 CC BY-NC-SA 4.0 授权',
       copyright: '© 2026 lessen-xu'

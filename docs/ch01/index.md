@@ -1,6 +1,6 @@
 # 第一章 可测空间和可测映射
 
-程士宏《测度论与概率论基础》习题 1（教材第 20–22 页，第 1–25 题）参考解答。每题单独成页，见下表或左侧目录。
+程士宏《测度论与概率论基础》习题 1（教材第 20–22 页，第 1–25 题）参考解答。
 
 ## 题目一览
 
@@ -36,7 +36,7 @@
 
 - **指示函数**（p.1）：$I_A(x)=1\ (x\in A)$，$I_A(x)=0\ (x\notin A)$。
 - **$\pi$ 系**（p.3）：非空集合系，对有限交封闭。
-- **半环**（p.4）：满足下列条件的 $\pi$ 系 $\mathscr{D}$——对任意 $A,B\in\mathscr{D}$ 且 $A\supset B$，存在有限个两两不交的 $C_1,\dots,C_n\in\mathscr{D}$ 使 $A\setminus B=\bigcup_{k=1}^n C_k$。
+- **半环**（p.4）：满足下列条件的 $\pi$ 系 $\mathscr{D}$。对任意 $A,B\in\mathscr{D}$ 且 $A\supset B$，存在有限个两两不交的 $C_1,\dots,C_n\in\mathscr{D}$ 使 $A\setminus B=\bigcup_{k=1}^n C_k$。
 - **环**（p.4）：非空集合系，对并与差封闭。
 - **域**（p.5）：满足 $X\in\mathscr{A}$ 且 $A\in\mathscr{A}\Rightarrow A^c\in\mathscr{A}$ 的 $\pi$ 系。
 - **单调系、$\lambda$ 系、$\sigma$ 域、$\sigma$ 环**：见 p.5–7。

@@ -16,7 +16,7 @@ export default defineConfig({
     hostname: SITE
   },
   head: [
-    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分,符号测度,条件期望' }],
+    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分,符号测度,条件期望,乘积空间,Fubini 定理' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
     ['meta', { property: 'og:site_name', content: '测度论与概率论基础 习题解答' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }]
@@ -184,6 +184,41 @@ export default defineConfig({
           { text: '26. 证明推论 4.5.8', link: '/ch04/26' },
           { text: '27. 条件 Hölder 不等式', link: '/ch04/27' },
           { text: '28. 条件 Minkowski 不等式', link: '/ch04/28' }
+        ]
+      },
+      {
+        text: '第五章 乘积空间',
+        link: '/ch05/',
+        collapsed: true,
+        items: [
+          { text: '1. 乘积集合的基本性质', link: '/ch05/01' },
+          { text: '2. 截口对余与并的运算', link: '/ch05/02' },
+          { text: '3. 两个半环的乘积仍是半环', link: '/ch05/03' },
+          { text: '4. 完成定理 5.1.4 之 (2) 的证明', link: '/ch05/04' },
+          { text: '5. 二元分布函数决定概率测度', link: '/ch05/05' },
+          { text: '6. 例 2 中函数的重积分不存在', link: '/ch05/06' },
+          { text: '7. 一个含参积分的计算', link: '/ch05/07' },
+          { text: '8. 三种区间上的分部积分公式', link: '/ch05/08' },
+          { text: '9. 连续分布函数的自积分', link: '/ch05/09' },
+          { text: '10. 非负函数积分的分层公式', link: '/ch05/10' },
+          { text: '11. 完全化测度空间上的 Fubini 定理', link: '/ch05/11' },
+          { text: '12. 对 n = 2 证明命题 5.2.1 至 5.2.3', link: '/ch05/12' },
+          { text: '13. 离散型随机向量独立的充要条件', link: '/ch05/13' },
+          { text: '14. 连续型随机向量独立的充要条件', link: '/ch05/14' },
+          { text: '15. 给定边缘分布造独立随机变量', link: '/ch05/15' },
+          { text: '16. 证明推论 5.2.6', link: '/ch05/16' },
+          { text: '17. 证明命题 5.2.7', link: '/ch05/17' },
+          { text: '18. 独立同分布时给定和的条件期望', link: '/ch05/18' },
+          { text: '19. 概率测度分解为转移函数的累次积分', link: '/ch05/19' },
+          { text: '20. 证明命题 5.3.1 之 (1) 和 (2)', link: '/ch05/20' },
+          { text: '21. 证明定理 5.3.3', link: '/ch05/21' },
+          { text: '22. 给定分布函数列造独立随机变量序列', link: '/ch05/22' },
+          { text: '23. 写出命题 5.4.4 的详细证明', link: '/ch05/23' },
+          { text: '24. 证明定理 5.4.5', link: '/ch05/24' },
+          { text: '25. 两种相容性的等价', link: '/ch05/25' },
+          { text: '26. 随机过程的存在定理', link: '/ch05/26' },
+          { text: '27. 由相容分布函数族造随机过程', link: '/ch05/27' },
+          { text: '28. 任意指标集上的独立随机变量族', link: '/ch05/28' }
         ]
       }
     ],

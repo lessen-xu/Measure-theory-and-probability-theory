@@ -16,7 +16,7 @@ export default defineConfig({
     hostname: SITE
   },
   head: [
-    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分,符号测度,条件期望,乘积空间,Fubini 定理' }],
+    ['meta', { name: 'keywords', content: '测度论,概率论基础,程士宏,习题解答,课后答案,北京大学出版社,可测空间,可测映射,测度空间,积分,符号测度,条件期望,乘积空间,Fubini 定理,大数律,中心极限定理,特征函数' }],
     ['meta', { name: 'robots', content: 'index,follow' }],
     ['meta', { property: 'og:site_name', content: '测度论与概率论基础 习题解答' }],
     ['meta', { property: 'og:locale', content: 'zh_CN' }]
@@ -219,6 +219,40 @@ export default defineConfig({
           { text: '26. 随机过程的存在定理', link: '/ch05/26' },
           { text: '27. 由相容分布函数族造随机过程', link: '/ch05/27' },
           { text: '28. 任意指标集上的独立随机变量族', link: '/ch05/28' }
+        ]
+      },
+      {
+        text: '第六章 独立随机变量序列',
+        link: '/ch06/',
+        collapsed: true,
+        items: [
+          { text: '1. 两个尾事件', link: '/ch06/01' },
+          { text: '2. 级数和等于给定随机变量是否为尾事件', link: '/ch06/02' },
+          { text: '3. 概率级数收敛推出 a.s. 收敛', link: '/ch06/03' },
+          { text: '4. 适当正则化后 a.s. 趋于零', link: '/ch06/04' },
+          { text: '5. 造出两个独立的同分布副本', link: '/ch06/05' },
+          { text: '6. Chebyshev 不等式与弱大数律', link: '/ch06/06' },
+          { text: '7. 三级数定理中截断方式的替换', link: '/ch06/07' },
+          { text: '8. 两个级数条件保证 a.s. 收敛', link: '/ch06/08' },
+          { text: '9. 用 αₙ 阶矩判别级数收敛', link: '/ch06/09' },
+          { text: '10. 取值 ±1/n 的级数', link: '/ch06/10' },
+          { text: '11. 指数分布的级数', link: '/ch06/11' },
+          { text: '12. 退化的方差刻画', link: '/ch06/12' },
+          { text: '13. 证明引理 6.2.1 和引理 6.2.2', link: '/ch06/13' },
+          { text: '14. 完成推论 6.2.8 的证明', link: '/ch06/14' },
+          { text: '15. 方差条件不必要的例子', link: '/ch06/15' },
+          { text: '16. 两点分布的强大数律', link: '/ch06/16' },
+          { text: '17. 特征函数导数的一致连续性', link: '/ch06/17' },
+          { text: '18. 特征函数在原点的展开式', link: '/ch06/18' },
+          { text: '19. 特征函数可积时的反演公式', link: '/ch06/19' },
+          { text: '20. 密度存在时特征函数趋于零', link: '/ch06/20' },
+          { text: '21. 分位点的存在性与不惟一性', link: '/ch06/21' },
+          { text: '22. 中心化后依概率趋零的三个等价命题', link: '/ch06/22' },
+          { text: '23. Chebyshev 大数律', link: '/ch06/23' },
+          { text: '24. Khinchine 大数律', link: '/ch06/24' },
+          { text: '25. 有界随机变量的中心极限定理', link: '/ch06/25' },
+          { text: '26. 经验分布函数', link: '/ch06/26' },
+          { text: '27. 自正则化的中心极限定理', link: '/ch06/27' }
         ]
       }
     ],
